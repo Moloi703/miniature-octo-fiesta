@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #d8801c, #eaa251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.bold {
+    color: black;
+}
+
+.light {
+    color: #eaa251;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.choose {
+    background: #eaa251;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.option-button {
+    display: block;
+    width: 100%;
+    background: #2c2c2c;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option-button span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Login Form */
+.login-form {
+    display: none;
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    background: #2c2c2c;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background: #444;
+}
